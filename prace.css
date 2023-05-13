@@ -7,6 +7,9 @@
 .container {
   width: 100%;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .container video {
   position: absolute;
@@ -26,52 +29,36 @@
   width: 100%;
   height: 100%;
 }
-.startmenu {
-  height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: auto auto auto;
-}
-.itemstart:nth-child(1) {
-  grid-column: 1/4;
-}
-.itemstart:nth-child(2) {
-  grid-row: 2/4;
-}
-.itemstart:nth-child(3) {
-  grid-row: 2/4;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 1fr 2fr;
+.contentindex {
   text-align: center;
-  color: #c994fd;
 }
-.startnews {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  font-size: 48px;
-  padding: 20px;
+.contentindex h1 {
+  font-size: 140px;
+  font-weight: 600;
+  color: white;
+  font-family: "Work Sans", sans-serif;
 }
-.itemstart:nth-child(3) a {
-  font-size: 24px;
-  padding: 20px;
-  border: #c994fd solid 2px;
-  border-radius: 50px;
-  color: #d3fbd8;
+.contentindex a {
   text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 24px;
+  border: 2px solid white;
+  padding: 16px 70px;
+  border-radius: 50px;
+  margin-top: 30px;
+  font-family: "Work Sans", sans-serif;
+  transition: 0.4s;
 }
-.itemstart:nth-child(3) a:hover {
-  background-color: #d3fbd8;
-  color: #c994fd;
-  transition: 0.6s;
+.fa-solid .fa-regular {
+  font-size: 12px;
+  margin: 20px;
+  transition: 1s;
 }
-
-.itemstart:nth-child(4) {
-  grid-row: 2/4;
+.contentindex a:hover {
+  color: black;
+  background-color: aliceblue;
 }
-
 /* MAIN HTML CSS */
 .mainmenu {
   display: grid;
