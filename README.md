@@ -1,0 +1,2 @@
+# seminarkos
+Seminární práce DBA
