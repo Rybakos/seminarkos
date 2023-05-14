@@ -19,13 +19,11 @@
   pointer-events: none;
   z-index: -2;
   background-color: white;
-  height: 100%;
-  width: 100%;
 }
 .blur {
   position: absolute;
   z-index: -1;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
   width: 100%;
   height: 100%;
 }
