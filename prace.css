@@ -96,7 +96,6 @@
   width: 100%;
   height: 100%;
 }
-
 .mainvrch {
   display: grid;
   height: auto;
@@ -142,4 +141,15 @@
   font-family: "Roboto Condensed", sans-serif;
   color: white;
   font-size: 18px;
+}
+.lefmainmenu {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  font-size: 24px;
+}
+.lefmainmenu a {
+  color: white;
+  text-decoration: none;
 }
