@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 /* START HTML CSS*/
 .container {
   width: 100%;
@@ -44,9 +45,22 @@
   border: 2px solid white;
   padding: 16px 70px;
   border-radius: 50px;
+  border-bottom-width: 8px;
   margin-top: 20px;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
   transition: 0.4s;
+}
+.grey1 {
+  color: #e7e7e7;
+}
+.grey2 {
+  color: #d3d3d3;
+}
+.grey3 {
+  color: #ccc;
+}
+.grey {
+  color: #a8a8a8;
 }
 .exploreindex .fa-meteor {
   color: white;
@@ -55,36 +69,74 @@
   color: black;
   transition: 1s;
 }
-
 .contentindex a:hover {
   color: black;
   background-color: aliceblue;
 }
 /* MAIN HTML CSS */
+.maincontainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+/* .maincontainer video {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -2;
+  background-color: white;
+}
+.mainblur {
+  position: absolute;
+  z-index: -1;
+  backdrop-filter: blur(3px);
+  width: 100%;
+  height: 100%;
+} */
+.mainvrch {
+  display: grid;
+  height: 40%;
+  width: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 3fr;
+  background-color: red;
+}
 .mainmenu {
   display: grid;
-  height: 75px;
   width: 100%;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   position: absolute;
+  margin-bottom: 50px;
 }
 .righmainmenu {
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  padding: 20px;
   display: grid;
-  grid-template-columns: auto;
+  grid-template-rows: auto;
   grid-template-columns: auto auto auto auto;
   align-items: center;
-  color: white;
+  font-size: 14px;
 }
-.leftmainmenu {
-  width: 50%;
-  height: 100%;
+.righmainmenu a {
+  text-decoration: none;
+  color: #d3bdaa;
+  padding: 20px;
 }
+
 .itemmain {
   text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+}
+.itemmain:hover {
+  color: white;
+}
+.maininfinity {
+  color: #d3bdaa;
 }
