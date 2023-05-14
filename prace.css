@@ -159,11 +159,40 @@
   width: 100%;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 100px auto;
+  grid-template-rows: 150px auto;
 }
 .bottomplanetsmain {
   height: auto;
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 10%;
+  margin-left: 10%;
   width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: rgba(128, 128, 128, 0.3);
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 20px;
+}
+.bottomplanetsmain .itembottom {
+  width: 100%;
+  height: auto;
+  color: white;
+  padding: 10px;
+  margin-left: 25px;
+}
+.itembottom h3 {
+  font-size: 24px;
+  font-family: "Archivo Black", sans-serif;
+}
+.itembottom h4 {
+  font-size: 18px;
+  font-family: "Archivo Black", sans-serif;
+}
+.itembottom p {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.itembottom img {
+  width: 75px;
+  height: 75px;
 }
