@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
 /* START HTML CSS*/
 .container {
   width: 100%;
@@ -77,10 +79,8 @@
 .maincontainer {
   width: 100%;
   height: 100vh;
-  display: flex;
-  justify-content: center;
 }
-/* .maincontainer video {
+.maincontainer video {
   position: absolute;
   object-fit: cover;
   width: 100%;
@@ -95,48 +95,51 @@
   backdrop-filter: blur(3px);
   width: 100%;
   height: 100%;
-} */
+}
+
 .mainvrch {
   display: grid;
-  height: 40%;
+  height: auto;
   width: 100%;
   grid-template-columns: auto;
-  grid-template-rows: 1fr 3fr;
-  background-color: red;
+  grid-template-rows: 90px auto;
+  z-index: 1;
 }
 .mainmenu {
   display: grid;
-  width: 100%;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  position: absolute;
-  margin-bottom: 50px;
+  margin-top: -100px;
 }
-.righmainmenu {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: auto auto auto auto;
-  align-items: center;
-  font-size: 14px;
-}
-.righmainmenu a {
+.midmainmenu a {
   text-decoration: none;
-  color: #d3bdaa;
-  padding: 20px;
-}
-
-.itemmain {
-  text-align: center;
-  font-family: "Oswald", sans-serif;
-  font-weight: 600;
-}
-.itemmain:hover {
+  display: inline-block;
   color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.midmainmenu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.infinitymain {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 2fr 2fr;
 }
 .maininfinity {
-  color: #d3bdaa;
+  text-align: center;
+  font-size: 42px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+.infinitytext {
+  padding-top: 20px;
+  text-align: center;
+  display: block;
+  padding-left: 35%;
+  padding-right: 35%;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  font-size: 18px;
 }
