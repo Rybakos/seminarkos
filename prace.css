@@ -44,15 +44,18 @@
   border: 2px solid white;
   padding: 16px 70px;
   border-radius: 50px;
-  margin-top: 30px;
+  margin-top: 20px;
   font-family: "Work Sans", sans-serif;
   transition: 0.4s;
 }
-.fa-solid .fa-regular {
-  font-size: 12px;
-  margin: 20px;
+.exploreindex .fa-meteor {
+  color: white;
+}
+.contentindex:hover .fa-meteor:before {
+  color: black;
   transition: 1s;
 }
+
 .contentindex a:hover {
   color: black;
   background-color: aliceblue;
