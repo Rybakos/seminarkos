@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-/* START HTML CSS*/
+/* MAIN.HTML-UPPER BODY CSS*/
 .container {
   width: 100%;
   height: 100vh;
@@ -152,4 +152,18 @@
 .lefmainmenu a {
   color: white;
   text-decoration: none;
+}
+/* MAIN.HTML-LOWER BODY CSS*/
+.bottomdevidemain {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 100px auto;
+}
+.bottomplanetsmain {
+  height: auto;
+  margin-right: 15%;
+  margin-left: 15%;
+  width: auto;
 }
