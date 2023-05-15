@@ -159,7 +159,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 150px auto;
+  grid-template-rows: 125px auto;
 }
 .bottomplanetsmain {
   height: auto;
@@ -169,17 +169,20 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  background-color: rgba(128, 128, 128, 0.3);
+  background-color: rgba(85, 94, 105, 0.6);
   border: 2px solid white;
+  border-top-width: 8px;
   border-radius: 40px;
   padding: 20px;
+  backdrop-filter: blur(2px);
 }
 .bottomplanetsmain .itembottom {
   width: 100%;
   height: auto;
   color: white;
   padding: 10px;
-  margin-left: 25px;
+  margin-left: 40px;
+  margin-bottom: 40px;
 }
 .itembottom h3 {
   font-size: 24px;
@@ -195,4 +198,9 @@
 .itembottom img {
   width: 75px;
   height: 75px;
+}
+.bottomaboutplanets {
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr;
+  grid-template-columns: auto;
 }
