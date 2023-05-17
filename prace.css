@@ -193,8 +193,10 @@
   display: grid;
   grid-template-rows: 2fr 1fr 1fr;
   grid-template-columns: auto;
+  justify-items: center;
 }
 .itembottom h3 {
+  text-align: center;
   font-size: 24px;
   font-family: "Archivo Black", sans-serif;
 }
@@ -213,4 +215,8 @@
 .itembottom img {
   width: 75px;
   height: 75px;
+}
+.itembottom:nth-child(1) {
+  grid-template-rows: 1fr 2fr 3fr;
+  grid-template-columns: auto;
 }
