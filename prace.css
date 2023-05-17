@@ -238,3 +238,11 @@
   font-family: "Oswald", sans-serif;
   transition: 0.4s;
 }
+.searchmainmenu:hover .fa-meteor:before {
+  color: black;
+  transition: 1s;
+}
+.searchmainmenu a:hover {
+  color: black;
+  background-color: aliceblue;
+}
