@@ -220,3 +220,21 @@
   grid-template-rows: 1fr 2fr 3fr;
   grid-template-columns: auto;
 }
+.searchmainmenu {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  justify-items: center;
+}
+.searchmainmenu a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  padding: 8px 35px;
+  border-radius: 50px;
+  border-bottom-width: 6px;
+  font-family: "Oswald", sans-serif;
+  transition: 0.4s;
+}
