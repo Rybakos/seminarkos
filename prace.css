@@ -169,7 +169,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  background-color: rgba(85, 94, 105, 0.6);
+  background-color: rgba(7, 9, 107, 0.1);
   border: 2px solid white;
   border-top-width: 8px;
   border-radius: 40px;
