@@ -39,19 +39,7 @@
   color: white;
   font-family: "Work Sans", sans-serif;
 }
-.contentindex a {
-  text-decoration: none;
-  display: inline-block;
-  color: white;
-  font-size: 24px;
-  border: 2px solid white;
-  padding: 16px 70px;
-  border-radius: 50px;
-  border-bottom-width: 8px;
-  margin-top: 20px;
-  font-family: "Oswald", sans-serif;
-  transition: 0.4s;
-}
+
 .grey1 {
   color: #e7e7e7;
 }
@@ -64,17 +52,54 @@
 .grey {
   color: #a8a8a8;
 }
-.exploreindex .fa-meteor {
+.buttons {
+  margin: 10%;
+  text-align: center;
+}
+.btn-hover a {
+  text-decoration: none;
   color: white;
+  font-size: 28px;
 }
-.contentindex:hover .fa-meteor:before {
-  color: black;
-  transition: 1s;
+.btn-hover i {
+  padding: 10px;
+  padding-left: 20px;
 }
-.contentindex a:hover {
-  color: black;
-  background-color: aliceblue;
+.btn-hover {
+  min-width: 250px;
+  min-height: 65px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 25px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
+.btn-hover:hover {
+  background-position: 100% 0;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.btn-hover:focus {
+  outline: none;
+}
+.btn-hover.color {
+  background-image: linear-gradient(
+    to right,
+    #6253e1,
+    #852d91,
+    #a3a1ff,
+    #f24645
+  );
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
 /* MAIN HTML CSS */
 .maincontainer {
   width: 100%;
