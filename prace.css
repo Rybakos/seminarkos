@@ -5,7 +5,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+footer {
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+}
 /* MAIN.HTML-UPPER BODY CSS*/
 .container {
   width: 100%;
@@ -101,6 +105,9 @@
 }
 
 /* MAIN HTML CSS */
+.backgroundmain {
+  background-image: url(./Galerie/preview.jpg);
+}
 .maincontainer {
   width: 100%;
   height: 100vh;
@@ -127,18 +134,20 @@
   width: 100%;
   grid-template-columns: auto;
   grid-template-rows: 90px auto;
-  z-index: 1;
 }
 .mainmenu {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-top: -100px;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 .midmainmenu a {
+  font-size: 18px;
   text-decoration: none;
   display: inline-block;
   color: white;
   font-family: "Roboto Condensed", sans-serif;
+}
+.midmainmenu i {
+  padding-left: 3px;
 }
 .midmainmenu {
   display: grid;
@@ -173,6 +182,7 @@
   align-items: center;
   justify-items: center;
   font-size: 24px;
+  font-weight: 600;
 }
 .lefmainmenu a {
   color: white;
@@ -194,21 +204,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  background-color: rgba(149, 17, 175, 0.1);
+  background-color: rgba(36, 104, 206, 0.1);
   border: 2px solid white;
   border-top-width: 8px;
   border-radius: 40px;
   padding: 20px;
   backdrop-filter: blur(2px);
-}
-.bottomdevidemain video {
-  position: absolute;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: -2;
-  background-color: white;
 }
 .bottomplanetsmain .itembottom {
   width: 100%;
@@ -230,6 +231,9 @@
   font-size: 18px;
   font-family: "Archivo Black", sans-serif;
 }
+.mainmercur span {
+  text-align: center;
+}
 .nogray {
   color: #664fd9;
 }
@@ -247,4 +251,19 @@
 .itembottom:nth-child(1) {
   grid-template-rows: 1fr 2fr 3fr;
   grid-template-columns: auto;
+}
+.mainmercur {
+  cursor: pointer;
+}
+.infomain {
+  display: none;
+}
+.mainlearn:hover .infomain {
+  text-align: center;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mainlearn:hover .learnmain {
+  display: none;
 }
