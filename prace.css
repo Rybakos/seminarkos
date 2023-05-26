@@ -419,3 +419,6 @@ footer {
   height: 50px;
   width: 50px;
 }
+.mercuross:hover ~ .aboutplanets .mercuryhover {
+  display: block;
+}
