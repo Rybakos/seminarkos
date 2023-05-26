@@ -252,6 +252,12 @@ footer {
   grid-template-rows: 1fr 2fr 3fr;
   grid-template-columns: auto;
 }
+.learnmain {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.infomain {
+  font-family: "Roboto Condensed", sans-serif;
+}
 .mainmercur {
   cursor: pointer;
 }
