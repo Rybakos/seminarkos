@@ -419,6 +419,5 @@ footer {
 }
 .planetsbody {
   background-image: url(./Galerie/preview.jpg);
-  height: 100%;
-  width: 100%;
+  background-size: cover;
 }
