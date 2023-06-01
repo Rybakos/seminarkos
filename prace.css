@@ -419,5 +419,9 @@ footer {
 }
 .planetsbody {
   background-image: url(./Galerie/preview.jpg);
-  background-size: cover;
+  background-size: auto;
+}
+/* NEWS SEKCE*/
+.newsbody {
+  background-image: url(./Galerie/preview.jpg);
 }
