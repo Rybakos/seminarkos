@@ -451,7 +451,50 @@ footer {
   backdrop-filter: blur(1px);
   background-color: rgba(0, 0, 0, 0.05);
 }
+.menutlacitko {
+  display: none;
+}
 /* Mars sekce */
 .marsbody {
   background-image: url(./Galerie/preview.jpg);
+}
+/* Merkury */
+.merkurybody {
+  background-image: url(./Galerie/preview.jpg);
+}
+@media (max-width: 880px) {
+  .menu {
+    display: none;
+  }
+  .zobrazeni {
+    display: grid;
+  }
+  .menutlacitko {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    color: white;
+  }
+  .menutlacitko i {
+    font-size: 28px;
+  }
+
+  .up {
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 75px auto;
+  }
+  .menuplanets .psst {
+    display: none;
+  }
+  .psst {
+    display: none;
+  }
+  .left a {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .menuplanets:hover .dropdown {
+    display: none;
+  }
 }
