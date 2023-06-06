@@ -614,7 +614,6 @@ textarea:focus {
   .menutlacitko i {
     font-size: 28px;
   }
-
   .up /* prenastavi tu vrchni listu pod sebe */ {
     grid-template-columns: 1fr;
     grid-template-rows: 50px 75px auto;
@@ -635,5 +634,50 @@ textarea:focus {
   }
   .menu {
     font-size: 16px;
+  }
+  .COntactscontact {
+    width: auto;
+  }
+  .contactreal {
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto;
+  }
+  .ulicnik {
+    display: none;
+  }
+  .contactinfo {
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactformular {
+    margin-left: 0px;
+  }
+  .contactinfo div:nth-child(1) {
+    display: block;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  .contactinfo div:nth-child(2) {
+    margin-left: 20%;
+    font-size: 18px;
+  }
+  .contactinfo div:nth-child(3) a {
+    margin-right: 20px;
+    margin-left: 40px;
+    padding: 5px;
+    font-size: 18px;
+  }
+  .contactformular div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .funkcelevo input {
+    margin-left: 25px;
   }
 }
