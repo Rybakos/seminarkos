@@ -454,6 +454,66 @@ footer {
 .menutlacitko {
   display: none;
 }
+.COntactscontact {
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: larger;
+}
+.COntactscontact p {
+  margin-top: 25px;
+}
+
+.contactreal {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 3fr 2fr 4fr 3fr;
+  grid-template-rows: auto;
+}
+.contactinfo {
+  color: white;
+  display: grid;
+  grid-template-rows: 2fr 3fr 1fr;
+  grid-template-columns: auto;
+  background-image: linear-gradient(to right, #6253e1, #852d91);
+  border: to right, #6253e1, #852d91, 1px solid;
+  border-radius: 15px;
+  font-family: "Roboto Condensed", sans-serif;
+  width: auto;
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+.contactinfo div {
+  padding: 15px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.contactinfo div:nth-child(2) i {
+  padding: 0px 10px 30px 0px;
+  color: #f24645;
+}
+.contactinfo div:nth-child(1) p {
+  margin-top: 15px;
+  color: rgb(255, 255, 255, 0.6);
+}
+.contactinfo div:nth-child(1) h3 {
+  font-size: 28px;
+}
+.contactinfo a {
+  color: white;
+}
+.contactinfo div:nth-child(3) a {
+  margin-right: 20px;
+  padding: 5px;
+}
+.contactinfo div:nth-child(3) {
+  margin-bottom: 10px;
+}
+.contactinfo a:hover {
+  background-color: #f24645;
+  border: #f24645 0px solid;
+  border-radius: 200px;
+}
 /* Mars sekce */
 .marsbody {
   background-image: url(./Galerie/preview.jpg);
@@ -463,13 +523,13 @@ footer {
   background-image: url(./Galerie/preview.jpg);
 }
 @media (max-width: 880px) {
-  .menu {
+  .menu /* menu div */ {
     display: none;
   }
-  .zobrazeni {
+  .zobrazeni /* java script sem odkazuje */ {
     display: grid;
   }
-  .menutlacitko {
+  .menutlacitko /* v normalni velikosti ma display none */ {
     display: grid;
     align-items: center;
     justify-items: center;
@@ -479,14 +539,14 @@ footer {
     font-size: 28px;
   }
 
-  .up {
+  .up /* prenastavi tu vrchni listu pod sebe */ {
     grid-template-columns: 1fr;
     grid-template-rows: 50px 75px auto;
   }
   .menuplanets .psst {
     display: none;
   }
-  .psst {
+  .psst /* skryje to emote vedle planety kterej indikuje dropdown */ {
     display: none;
   }
   .left a {
@@ -494,7 +554,10 @@ footer {
     font-size: 32px;
     font-weight: 600;
   }
-  .menuplanets:hover .dropdown {
+  .menuplanets:hover .dropdown /* zaruci to ze nefunguje dropdown menu */ {
     display: none;
+  }
+  .menu {
+    font-size: 16px;
   }
 }
