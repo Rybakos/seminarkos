@@ -536,15 +536,18 @@ textarea:focus {
   .maininfinity {
     font-size: 18px;
   }
+  .infinitymain {
+    width: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 0.5fr 0.5fr auto 1fr 0.5fr;
+  }
   .infinitytext {
     padding-left: 0px;
     padding-right: 0px;
     font-size: 14px;
   }
   .mainphotos {
-    font-family: "Archivo Black", sans-serif;
-    color: white;
-    font-size: 18px;
     text-transform: uppercase;
     padding: 0px;
     display: grid;
@@ -556,7 +559,7 @@ textarea:focus {
   .mainphotos h3 {
     grid-column: 1;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
   }
   .mainphotos a {
     display: flex;
