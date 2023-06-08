@@ -11,81 +11,113 @@
     ></script>
     <link rel="icon" type="image/gif" href="./Galerie/mefrfr.png" />
     <script src="./java.js"></script>
+    <link rel="stylesheet" href="lightbox.css" />
+    <script src="./lightbox-plus-jquery.js"></script>
     <title>Home</title>
   </head>
   <body class="mainbody">
-    <div class="backgroundmain">
-      <div class="up">
-        <div class="left">
-          <a href="index.html"
-            ><p>
-              <span class="nogray">S </span><span class="grey1">P</span>
-              <span class="grey2">A</span> <span class="grey3">C</span>
-              <span class="grey">E</span>
-            </p></a
-          >
+    <div class="up">
+      <div class="left">
+        <a href="index.html"
+          ><p>
+            <span class="nogray">S </span><span class="grey1">P</span>
+            <span class="grey2">A</span> <span class="grey3">C</span>
+            <span class="grey">E</span>
+          </p></a
+        >
+      </div>
+      <div class="menutlacitko" onclick="prepni()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="menu">
+        <div class="menumain os">
+          <a href="main.html">Home <i class="fa-solid fa-house-user"></i></a>
         </div>
-        <div class="menutlacitko" onclick="prepni()">
-          <i class="fa-solid fa-bars"></i>
+        <div class="menunews os">
+          <a href="news.html">History <i class="fa-solid fa-newspaper"></i></a>
         </div>
-        <div class="menu">
-          <div class="menumain os">
-            <a href="main.html">Home <i class="fa-solid fa-house-user"></i></a>
+        <div class="menuplanets os">
+          <a href="planets.html"
+            >Planets <i class="fa-solid fa-globe"></i>
+            <i class="fa-solid fa-chevron-down psst"></i
+          ></a>
+          <div class="dropdown">
+            <a href="./mercury.html">MERCURY</a>
+            <a href="">VENUS</a>
+            <a href="">EARTH</a>
+            <a href="mars.html">MARS</a>
+            <a href="">JUPITER</a>
+            <a href="">SATURN</a>
+            <a href="">URANUS</a>
+            <a href="">NEPTUNE</a>
           </div>
-          <div class="menunews os">
-            <a href="news.html"
-              >History <i class="fa-solid fa-newspaper"></i
-            ></a>
-          </div>
-          <div class="menuplanets os">
-            <a href="planets.html"
-              >Planets <i class="fa-solid fa-globe"></i>
-              <i class="fa-solid fa-chevron-down psst"></i
-            ></a>
-            <div class="dropdown">
-              <a href="./mercury.html">MERCURY</a>
-              <a href="">VENUS</a>
-              <a href="">EARTH</a>
-              <a href="mars.html">MARS</a>
-              <a href="">JUPITER</a>
-              <a href="">SATURN</a>
-              <a href="">URANUS</a>
-              <a href="">NEPTUNE</a>
-            </div>
-          </div>
-          <div class="menuplanets os">
-            <a href="Contacts.html"
-              >Contacts <i class="fa-solid fa-address-card"></i
-            ></a>
-          </div>
+        </div>
+        <div class="menuplanets os">
+          <a href="Contacts.html"
+            >Contacts <i class="fa-solid fa-address-card"></i
+          ></a>
         </div>
       </div>
-      <div class="infinitymain">
-        <div class="junkmain"></div>
-        <div class="infinty">
-          <div class="maininfinity"><h1>INTO INFINITY</h1></div>
-          <div class="infinitytext">
-            <p>
-              Step into the infinite expanse of the universe and witness the
-              beauty and majesty of its celestial tapestry
-            </p>
-          </div>
+    </div>
+    <div class="infinitymain">
+      <div class="junkmain"></div>
+      <div class="infinty">
+        <div class="maininfinity"><h1>INTO INFINITY</h1></div>
+        <div class="infinitytext">
+          <p>
+            Step into the infinite expanse of the universe and witness the
+            beauty and majesty of its celestial tapestry
+          </p>
         </div>
-        <div class="mainphotos">
-          <div class="mainphotosh3">
-            <h3>Discover the wonders of the universe</h3>
-          </div>
-        </div>
-        <div class="mainhistory">
-          The universe, with its vast expanse, holds a captivating history. It
-          began with the Big Bang around 13.8 billion years ago, marking the
-          birth of space, time, and matter. Over time, galaxies formed, stars
-          ignited, and planets emerged. This ongoing cosmic journey has shaped
-          the universe we see today, offering endless wonders to explore.
-          <a href="">Learn more</a>
-        </div>
-        <footer><p>© Filip Kárský</p></footer>
       </div>
+      <div class="mainphotos">
+        <h3>Discover the wonders of the universe</h3>
+        <a
+          href="./GalerieLightBox/isssun.png"
+          data-lightbox="vesmir"
+          data-title="Shot of the ISS in front of Sun"
+          ><img src="./GalerieLightBox/isssunmini.png"
+        /></a>
+        <a
+          href="./GalerieLightBox/jupiter.png"
+          data-lightbox="vesmir"
+          data-title="Rendered photo of Jupiter by Juno"
+          ><img src="./GalerieLightBox/jupitermini.png"
+        /></a>
+        <a
+          href="./GalerieLightBox/JWST.png"
+          data-lightbox="vesmir"
+          data-title="Image of Pillars of Creation by James Webb Space Telescope"
+          ><img src="./GalerieLightBox/JWSTmini.png"
+        /></a>
+        <a
+          href="./GalerieLightBox/jwstpillar.png"
+          data-lightbox="vesmir"
+          data-title="Another photo of Pillars of Creation by James Webb Space Telescope"
+          ><img src="./GalerieLightBox/jwstpillarmini.png"
+        /></a>
+        <a
+          href="./GalerieLightBox/nebula.png"
+          data-lightbox="vesmir"
+          data-title="The Rosette Nebula"
+          ><img src="./GalerieLightBox/nebulamini.png"
+        /></a>
+        <a
+          href="./GalerieLightBox/stunningpng.png"
+          data-lightbox="vesmir"
+          data-title="Photo from Grand Staircase Escalante in Utah"
+          ><img src="./GalerieLightBox/stunningpngmini.png"
+        /></a>
+      </div>
+      <div class="mainhistory">
+        The universe, with its vast expanse, holds a captivating history. It
+        began with the Big Bang around 13.8 billion years ago, marking the birth
+        of space, time, and matter. Over time, galaxies formed, stars ignited,
+        and planets emerged. This ongoing cosmic journey has shaped the universe
+        we see today, offering endless wonders to explore.
+        <a href="./news.html">Learn more</a>
+      </div>
+      <footer><p>© Filip Kárský</p></footer>
     </div>
   </body>
 </html>
