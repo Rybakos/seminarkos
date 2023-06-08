@@ -533,6 +533,36 @@ textarea:focus {
   background-image: url(./Galerie/preview.jpg);
 }
 @media (max-width: 880px) {
+  .maininfinity {
+    font-size: 18px;
+  }
+  .infinitytext {
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 14px;
+  }
+  .mainphotos {
+    font-family: "Archivo Black", sans-serif;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 0.25fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin-top: 0px;
+  }
+  .mainphotos h3 {
+    grid-column: 1;
+    text-align: center;
+    font-size: 18px;
+  }
+  .mainphotos a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .menu /* menu div */ {
     display: none;
   }
