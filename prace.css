@@ -319,6 +319,21 @@ footer {
 .newsbody {
   background-image: url(./Galerie/preview.jpg);
 }
+.newsmaindiv {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.newsupperbody {
+  margin-top: 150px;
+}
+.newsupperbody h1 {
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  text-align: center;
+  font-size: 52px;
+}
+
 /* CONTACTS SEKCE */
 .contactsbody {
   background-image: url(./Galerie/preview.jpg);
@@ -461,6 +476,7 @@ footer {
   border-radius: 10px;
   padding: 8px;
   font-family: "Roboto Condensed", sans-serif;
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
 }
 .contactformular input {
   padding: 5px;
