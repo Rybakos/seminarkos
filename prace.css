@@ -315,7 +315,7 @@ footer {
   height: 50px;
   display: grid;
 }
-/* NEWS SEKCE*/
+/* HISTORY SEKCE*/
 .newsbody {
   background-image: url(./Galerie/preview.jpg);
 }
@@ -363,6 +363,43 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+.contenthistory {
+  margin-top: 75px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.contenthistory h1 {
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+.bigbang {
+  background: url(./Galerie/bigbangpozadijpg.jpg) no-repeat fixed center;
+}
+.bigbang h1 {
+  color: black;
+}
+.evolutionofstarsadngalaxies {
+  background: url(./GalerieLightBox/evolution.png) no-repeat fixed center;
+}
+.solarsystem {
+  background: url(./Galerie/Europe_in_the_Solar_System_pillars.png) no-repeat
+    fixed center;
+}
+.Discoveries {
+  background: url(./Galerie/background.png) no-repeat fixed center;
+}
+.Exploration {
+  background: url(./Galerie/explorationpozadi.jpg) no-repeat fixed center;
+}
+.darkenergy {
+  background: url(./GalerieLightBox/darkmetter.png) no-repeat fixed center;
+}
+.evolutionoss {
+  background: url(./Galerie/futurebackground.png) no-repeat fixed center;
+}
+
 /* CONTACTS SEKCE */
 .contactsbody {
   background-image: url(./Galerie/preview.jpg);
