@@ -366,13 +366,14 @@ footer {
 .contenthistory {
   margin-top: 75px;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto auto auto;
 }
 .contenthistory h1 {
   color: white;
   font-family: "Archivo Black", sans-serif;
   font-size: 50px;
   text-align: center;
+  text-transform: uppercase;
 }
 .contenthistory p {
   color: rgb(255, 255, 255);
@@ -390,6 +391,7 @@ footer {
   font-family: "Archivo Black", sans-serif;
   font-size: 25px;
   text-align: center;
+  text-transform: uppercase;
 }
 .bigbang {
   background: url(./Galerie/bigbangpozadijpg.jpg) no-repeat fixed center;
@@ -404,19 +406,42 @@ footer {
   background-color: rgb(0, 0, 0, 0.5);
 }
 .evolutionofstarsadngalaxies {
-  padding: 20px;
   background: url(./GalerieLightBox/evolution.png) no-repeat fixed center;
 }
-.bigbang p {
+.evolutionofstarsadngalaxies p {
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.evolutionofstarsadngalaxies h3 {
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.evolutionofstarsadngalaxies h1 {
   background-color: rgb(0, 0, 0, 0.5);
 }
 
+.bigbang p {
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.solarsystem {
+  padding: 20px;
+}
+
+.Discoveries p {
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.Discoveries h3 {
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.Discoveries h1 {
+  background-color: rgb(0, 0, 0, 0.5);
+}
 .solarsystem {
   background: url(./Galerie/Europe_in_the_Solar_System_pillars.png) no-repeat
     fixed center;
 }
 .Discoveries {
   background: url(./Galerie/background.png) no-repeat fixed center;
+  height: 100%;
+  width: 100%;
 }
 .Exploration {
   background: url(./Galerie/explorationpozadi.jpg) no-repeat fixed center;
