@@ -331,7 +331,7 @@ footer {
   color: white;
   font-family: "Archivo Black", sans-serif;
   text-align: center;
-  font-size: 52px;
+  font-size: 72px;
 }
 .uppertimeline {
   color: white;
@@ -371,7 +371,24 @@ footer {
 .contenthistory h1 {
   color: white;
   font-family: "Archivo Black", sans-serif;
-  font-size: 40px;
+  font-size: 50px;
+  text-align: center;
+}
+.contenthistory p {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto Condensed", sans-serif;
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+.contenthistory h3 {
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 25px;
   text-align: center;
 }
 .bigbang {
@@ -384,29 +401,16 @@ footer {
   padding-top: 10px;
 }
 .bigbang h3 {
-  color: white;
   background-color: rgb(0, 0, 0, 0.5);
-  font-family: "Archivo Black", sans-serif;
-  font-size: 25px;
-  text-align: center;
 }
-
 .evolutionofstarsadngalaxies {
   padding: 20px;
   background: url(./GalerieLightBox/evolution.png) no-repeat fixed center;
 }
 .bigbang p {
-  color: rgb(255, 255, 255);
-  font-family: "Roboto Condensed", sans-serif;
-  display: block;
-  text-align: center;
-  font-size: 24px;
-  padding-right: 20%;
-  padding-left: 20%;
-  padding-bottom: 20px;
-  font-weight: 500;
   background-color: rgb(0, 0, 0, 0.5);
 }
+
 .solarsystem {
   background: url(./Galerie/Europe_in_the_Solar_System_pillars.png) no-repeat
     fixed center;
