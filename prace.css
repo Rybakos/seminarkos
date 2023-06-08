@@ -333,7 +333,35 @@ footer {
   text-align: center;
   font-size: 52px;
 }
+.uppertimeline {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.lowertimeline {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
 
+.timelinemain {
+  display: grid;
+  grid-template-rows: 100px 1fr 2fr 1fr;
+}
+.timeline {
+  background-color: red;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  justify-content: space-between;
+}
 /* CONTACTS SEKCE */
 .contactsbody {
   background-image: url(./Galerie/preview.jpg);
@@ -549,6 +577,10 @@ textarea:focus {
   background-image: url(./Galerie/preview.jpg);
 }
 @media (max-width: 880px) {
+  .contentindex h1 {
+    font-size: 70px;
+  }
+
   .maininfinity {
     font-size: 18px;
   }
@@ -582,13 +614,13 @@ textarea:focus {
     justify-content: center;
     align-items: center;
   }
-  .menu /* menu div */ {
+  .menu {
     display: none;
   }
-  .zobrazeni /* java script sem odkazuje */ {
+  .zobrazeni {
     display: grid;
   }
-  .menutlacitko /* v normalni velikosti ma display none */ {
+  .menutlacitko {
     display: grid;
     align-items: center;
     justify-items: center;
@@ -597,14 +629,14 @@ textarea:focus {
   .menutlacitko i {
     font-size: 28px;
   }
-  .up /* prenastavi tu vrchni listu pod sebe */ {
+  .up {
     grid-template-columns: 1fr;
     grid-template-rows: 50px 75px auto;
   }
   .menuplanets .psst {
     display: none;
   }
-  .psst /* skryje to emote vedle planety kterej indikuje dropdown */ {
+  .psst {
     display: none;
   }
   .left a {
@@ -612,7 +644,7 @@ textarea:focus {
     font-size: 32px;
     font-weight: 600;
   }
-  .menuplanets:hover .dropdown /* zaruci to ze nefunguje dropdown menu */ {
+  .menuplanets:hover .dropdown {
     display: none;
   }
   .menu {
