@@ -721,18 +721,22 @@ textarea:focus {
   text-align: center;
 }
 .uppermenucontect {
-  background-color: rgb(0, 0, 0, 0.8);
+  background-color: rgb(0, 0, 0, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.5);
   height: 100%;
   width: auto;
   border-top: none;
   border-bottom: none;
 }
+.uppermenucontect p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .upperobsahplanet {
   margin-top: 75px;
   display: grid;
   grid-template-columns: 2fr 3fr;
-  grid-template-rows: auto auto;
+  grid-template-rows: 2fr 0.75fr;
 }
 .infoupper {
   grid-column: 1/3;
