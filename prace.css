@@ -343,6 +343,9 @@ footer {
   padding-left: 50px;
   padding-right: 50px;
 }
+.uppertimeline .fa-arrow-right-long {
+  display: none;
+}
 .lowertimeline {
   color: white;
   font-family: "Roboto Condensed", sans-serif;
@@ -353,7 +356,9 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-
+.lowertimeline .fa-arrow-left {
+  display: none;
+}
 .timelinemain {
   display: grid;
   grid-template-rows: 100px 1fr 2fr 1fr;
@@ -805,7 +810,57 @@ textarea:focus {
     padding: 3px;
   }
   .timelinemain {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .timelinejunk {
     display: none;
+  }
+  .uppertimeline {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 0px;
+  }
+  .uppertimeline .fa-arrow-right-long {
+    display: inline;
+  }
+
+  .lowertimeline {
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .lowertimeline .fa-arrow-left {
+    display: block;
+  }
+  .timeline {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .timeline img {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .fa-arrow-turn-down {
+    display: none;
+  }
+  .fa-arrow-turn-up {
+    display: none;
+  }
+  .to-top {
+    right: 25px;
   }
   .newsupperbody h1 {
     font-size: 32px;
