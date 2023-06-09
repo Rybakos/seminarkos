@@ -530,6 +530,9 @@ footer {
   justify-items: center;
   align-items: center;
 }
+.nogray {
+  color: rgb(85, 26, 139);
+}
 .left a {
   text-decoration: none;
   font-size: 24px;
