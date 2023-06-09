@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 footer {
   color: white;
@@ -374,6 +375,7 @@ footer {
   font-size: 50px;
   text-align: center;
   text-transform: uppercase;
+  background-color: rgb(0, 0, 0, 0.5);
 }
 .contenthistory p {
   color: rgb(255, 255, 255);
@@ -385,6 +387,7 @@ footer {
   padding-left: 20%;
   padding-bottom: 20px;
   font-weight: 500;
+  background-color: rgb(0, 0, 0, 0.5);
 }
 .contenthistory h3 {
   color: white;
@@ -392,6 +395,7 @@ footer {
   font-size: 25px;
   text-align: center;
   text-transform: uppercase;
+  background-color: rgb(0, 0, 0, 0.5);
 }
 .bigbang {
   background: url(./Galerie/bigbangpozadijpg.jpg) no-repeat fixed center;
@@ -408,32 +412,19 @@ footer {
 .evolutionofstarsadngalaxies {
   background: url(./GalerieLightBox/evolution.png) no-repeat fixed center;
 }
-.evolutionofstarsadngalaxies p {
-  background-color: rgb(0, 0, 0, 0.5);
+.solarsystem h1 {
+  background-color: rgb(0, 0, 0, 0);
 }
-.evolutionofstarsadngalaxies h3 {
-  background-color: rgb(0, 0, 0, 0.5);
+.solarsystem p {
+  background-color: rgb(0, 0, 0, 0);
 }
-.evolutionofstarsadngalaxies h1 {
-  background-color: rgb(0, 0, 0, 0.5);
-}
-
-.bigbang p {
-  background-color: rgb(0, 0, 0, 0.5);
+.solarsystem h3 {
+  background-color: rgb(0, 0, 0, 0);
 }
 .solarsystem {
   padding: 20px;
 }
 
-.Discoveries p {
-  background-color: rgb(0, 0, 0, 0.5);
-}
-.Discoveries h3 {
-  background-color: rgb(0, 0, 0, 0.5);
-}
-.Discoveries h1 {
-  background-color: rgb(0, 0, 0, 0.5);
-}
 .solarsystem {
   background: url(./Galerie/Europe_in_the_Solar_System_pillars.png) no-repeat
     fixed center;
@@ -451,6 +442,18 @@ footer {
 }
 .evolutionoss {
   background: url(./Galerie/futurebackground.png) no-repeat fixed center;
+}
+.to-top {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 50px;
 }
 
 /* CONTACTS SEKCE */
@@ -669,7 +672,7 @@ textarea:focus {
 }
 @media (max-width: 880px) {
   .contentindex h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   .maininfinity {
