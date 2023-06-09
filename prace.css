@@ -696,7 +696,7 @@ textarea:focus {
   backdrop-filter: blur(1px);
 }
 .upperimg img {
-  height: 750px;
+  height: 650px;
 }
 .upperimg {
   padding: 50px;
@@ -706,6 +706,8 @@ textarea:focus {
 .uppermenu {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .uppermenu h1 {
   color: white;
@@ -728,8 +730,8 @@ textarea:focus {
   border: 1px solid rgba(255, 255, 255, 0.5);
   height: 100%;
   width: auto;
-  border-top: none;
-  border-bottom: none;
+  border-radius: 25px;
+  padding: 20px;
 }
 .uppermenucontect h1 {
   font-size: 86px;
@@ -742,7 +744,7 @@ textarea:focus {
   margin-top: 75px;
   display: grid;
   grid-template-columns: 2fr 3fr;
-  grid-template-rows: 2fr 0.75fr;
+  grid-template-rows: 1.5fr 1fr;
 }
 .infoupper {
   grid-column: 1/3;
