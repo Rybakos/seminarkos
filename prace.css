@@ -829,6 +829,9 @@ textarea:focus {
   .uppertimeline .fa-arrow-right-long {
     display: inline;
   }
+  .uppertimeline .fa-arrow-turn-down {
+    display: none;
+  }
 
   .lowertimeline {
     padding-left: 10px;
@@ -842,6 +845,9 @@ textarea:focus {
   .lowertimeline .fa-arrow-left {
     display: block;
   }
+  .lowertimeline .fa-arrow-turn-up {
+    display: none;
+  }
   .timeline {
     margin-left: 0px;
     margin-right: 0px;
@@ -853,12 +859,7 @@ textarea:focus {
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  .fa-arrow-turn-down {
-    display: none;
-  }
-  .fa-arrow-turn-up {
-    display: none;
-  }
+
   .to-top {
     right: 25px;
   }
