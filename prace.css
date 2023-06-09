@@ -804,4 +804,19 @@ textarea:focus {
   .contactformular input {
     padding: 3px;
   }
+  .timelinemain {
+    display: none;
+  }
+  .newsupperbody h1 {
+    font-size: 32px;
+  }
+  .contenthistory h1 {
+    font-size: 32px;
+  }
+  .contenthistory p {
+    font-size: 16px;
+  }
+  .contenthistory h3 {
+    font-size: 22px;
+  }
 }
