@@ -489,7 +489,6 @@ footer {
 .newsmaindiv footer {
   padding-top: 25px;
 }
-
 .up {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -497,16 +496,6 @@ footer {
   width: 100%;
   height: fit-content;
   background-color: white, 0.2;
-}
-.menu {
-  backdrop-filter: blur(5px);
-  background-color: rgb(0, 0, 0, 0.5);
-}
-.left {
-  backdrop-filter: blur(5px);
-  background-color: rgb(0, 0, 0, 0.5);
-}
-.menutlacitko {
   backdrop-filter: blur(5px);
   background-color: rgb(0, 0, 0, 0.5);
 }
@@ -698,6 +687,9 @@ textarea:focus {
   justify-content: flex-end;
   align-items: center;
   padding-right: 10px;
+}
+.footercontacts {
+  margin-top: 140px;
 }
 /* Základ pro všechny planety */
 .mercurymaindiv .up {
@@ -1323,5 +1315,8 @@ textarea:focus {
   }
   .planetsimgneptune:hover ~ .planetsinfoneptune {
     display: none;
+  }
+  .footercontacts {
+    margin-top: 80px;
   }
 }
