@@ -489,6 +489,7 @@ footer {
 .newsmaindiv footer {
   padding-top: 25px;
 }
+
 .up {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -497,8 +498,16 @@ footer {
   height: fit-content;
   background-color: white, 0.2;
 }
-.up {
-  backdrop-filter: blur(3px);
+.menu {
+  backdrop-filter: blur(5px);
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.left {
+  backdrop-filter: blur(5px);
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.menutlacitko {
+  backdrop-filter: blur(5px);
   background-color: rgb(0, 0, 0, 0.5);
 }
 .menu {
