@@ -10,8 +10,10 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="./java.js"></script>
-
-    <title>Mercury</title>
+    <link rel="stylesheet" href="lightbox.css" />
+    <script src="./lightbox-plus-jquery.js"></script>
+    <link rel="icon" type="image/gif" href="./Galerie/mefrfr.png" />
+    <title>Merkur</title>
   </head>
   <body class="merkurybody">
     <div class="mercurymaindiv">
@@ -44,13 +46,13 @@
             ></a>
             <div class="dropdown">
               <a href="./mercury.html">MERCURY</a>
-              <a href="">VENUS</a>
-              <a href="">EARTH</a>
+              <a href="venus.html">VENUS</a>
+              <a href="earth.html">EARTH</a>
               <a href="mars.html">MARS</a>
-              <a href="">JUPITER</a>
-              <a href="">SATURN</a>
-              <a href="">URANUS</a>
-              <a href="">NEPTUNE</a>
+              <a href="jupiter.html">JUPITER</a>
+              <a href="saturn.html">SATURN</a>
+              <a href="uranus.html">URANUS</a>
+              <a href="neptune.html">NEPTUNE</a>
             </div>
           </div>
           <div class="menuplanets os">
@@ -64,14 +66,14 @@
         <div class="uppermenu">
           <div></div>
           <div class="uppermenucontect">
-            <h1>Mercury</h1>
+            <h1>Merkur</h1>
             <p>
-              Mercury, named after the Roman god of commerce, is the smallest
-              planet in our solar system and the closest one to the Sun
+              Merkur, pojmenovaný po římském bohu obchodu, je nejmenší planeta
+              ve sluneční soustavě a nejbližší planeta ke Slunci.
             </p>
             <p>
-              It is a rocky, barren world with a diameter of approximately 4,879
-              kilometers, making it slightly larger than Earth's Moon.
+              Je to hornatý a neúrodný svět s průměrem přibližně 4 879
+              kilometrů, což je o něco větší než Měsíc Země.
             </p>
           </div>
           <div></div>
@@ -82,22 +84,21 @@
         <div class="infoupper">
           <table>
             <tr>
-              <th class="thnadpis">Atmosphere</th>
-              <th class="thnadpis">Orbital Period</th>
-              <th class="thnadpis">Climate</th>
+              <th class="thnadpis">Atmosféra</th>
+              <th class="thnadpis">Oběžná doba</th>
+              <th class="thnadpis">Klima</th>
             </tr>
             <tr>
               <th>
-                It consists primarily of hydrogen (H₂) and traces of other
-                elements such as sodium, potassium, and helium.
+                Skládá se převážně z kyslíkovodíku (H₂O) a stopových množství
+                dalších prvků jako je sodík, draslík a heli.
               </th>
               <th>
-                The average orbital period of Mercury is approximately 88 Earth
-                days.
+                Planeta oběhne kolem Slunce přibližně 88 pozemských dní days.
               </th>
               <th>
-                During the day, temperatures can rise above 400 °C, while at
-                night, they can drop to as low as -180 °C.
+                Během dne se mohou teploty zvedat na přes 400 °C, zatímco v noci
+                mohou klesat na minus 180 °C.
               </th>
             </tr>
           </table>
@@ -105,76 +106,112 @@
       </div>
       <div class="loweobsaplanet">
         <div class="contentloweobsaplanet">
-          <h2>Content</h2>
+          <h2>Obsah</h2>
           <ul>
-            <li><a href="#quickfacts">Quick facts</a></li>
-            <li><a href="">Informations</a></li>
-            <li><a href="">Gallery</a></li>
+            <li><a href="#quickfacts">Stručná fakta</a></li>
+            <li><a href="#Informations">Informace</a></li>
+            <li><a href="#galleryplanet">Galerie</a></li>
           </ul>
         </div>
         <div class="quickfacts" id="quickfacts">
-          <h1>Quick facts</h1>
+          <h1>Stručná fakta</h1>
           <div>
-            <h6>Diameter</h6>
+            <h6>Průměr</h6>
             <p>4,879km</p>
           </div>
           <div>
-            <h6>Mass</h6>
+            <h6>Hmotnost</h6>
             <p>3.3 x 10^23kg</p>
           </div>
           <div>
-            <h6>Distance from the Sun</h6>
-            <p>57.9 million km</p>
+            <h6>Vzdálenost od Slunce</h6>
+            <p>57.9 millionů km</p>
           </div>
           <div>
-            <h6>Orbital Period</h6>
-            <p>88 Earth days</p>
+            <h6>Oběžná doba</h6>
+            <p>88 pozemských dní</p>
           </div>
           <div>
-            <h6>Planet type</h6>
-            <p>Gas giant</p>
+            <h6>Typ planety</h6>
+            <p>Terestrická planeta</p>
           </div>
         </div>
         <div class="Informations">
+          <div class="nazevinformations"><h1>Informace</h1></div>
           <div class="informationsimg">
             <img src="./Galerie/mercurysurface.png" alt="" />
           </div>
-          <div class="ifnromationscontent">
-            <div><h1>Surface</h1></div>
-            <div><h1>Atmosphere</h1></div>
-            <div><h1>Solar transits</h1></div>
+          <div class="ifnromationscontent" id="Informations">
+            <div><h1>Povrch</h1></div>
+            <div><h1>Atmosféra</h1></div>
+            <div><h1>Sluneční tranzity</h1></div>
             <p>
-              Mercury's surface is characterized by numerous impact craters,
-              caused by collisions with asteroids and comets. These craters vary
-              in size and depth, and some are surrounded by rays of ejected
-              material.One of the most prominent surface features on Mercury is
-              the Caloris Basin, a large impact crater with a diameter of about
-              1,550 kilometers. It is surrounded by concentric rings and radial
-              troughs. The surface is covered in plains, hills, and scarps.
-              There are also features such as rupes and lobate scarps,
-              indicating tectonic activity in the planet's past.
+              Povrch Merkuru je silně kráterovaný a pokrytý vrstvou prachu a
+              hornin. Má mnoho impaktních kráterů různých velikostí. Planeta má
+              také vyvýšené hřbety, které se nazývají rupes, a prohlubně zvané
+              fossae. Tyto povrchové rysy naznačují geologickou aktivitu v
+              minulosti. Významnou povrchovou formací na Merkuru je Caloris
+              Basin, což je velký impaktní kráter s průměrem přibližně 1 550
+              kilometrů. Je obklopen soustavou koncentrických okruhů a
+              radiálními roklemi.
             </p>
             <p>
-              Mercury has an extremely thin and tenuous atmosphere, known as an
-              exosphere. It consists mostly of atoms and molecules that have
-              been blasted off the surface by the solar wind and impacts. The
-              exosphere of Mercury contains trace amounts of hydrogen, helium,
-              oxygen, sodium, calcium, and potassium, among other elements.
-              These gases are present in very low concentrations. Due to the
-              planet's high surface temperature and low gravity, the atmospheric
-              particles escape into space relatively quickly, resulting in a
-              very sparse and transient atmosphere.
+              Merkur má velmi tenkou a řídkou atmosféru. Tato atmosféra je
+              tvořena především stopovými plyny, jako je kyslík, sodík, vodík a
+              helium. Vzhledem k nízké gravitaci a vysokým teplotám na povrchu
+              planety, atmosféra Merkuru rychle uniká do vesmíru.
             </p>
             <p>
-              Solar transits of Mercury occur when the planet passes directly
-              between the Sun and the Earth, appearing as a small black dot
-              moving across the Sun's disk.Solar transits of Mercury provide
-              valuable opportunities for astronomers to study the planet's orbit
-              and gather data about its atmosphere and surface. By observing the
-              timing and duration of transits, scientists can refine their
-              understanding of Mercury's position in the solar system.
+              Sluneční tranzity Merkuru jsou zajímavým astronomickým jevem, při
+              kterém Merkur projde přímo mezi Sluncem a Zemí a je viditelný jako
+              malá tmavá skvrna na slunečním kotouči. Sluneční tranzity Merkuru
+              se vyskytují relativně vzácně, asi 13 až 14krát za století.
+              Obvykle se odehrávají v květnu nebo listopadu. Tyto tranzity
+              poskytují astronomům důležité příležitosti k výzkumu dráhy
+              Merkuru, jeho atmosféry a přesnosti astronomických měření.
+              Pozorováním času a trvání tranzitů mohou vědci zpřesnit své
+              poznání o pozici Merkuru ve sluneční soustavě.
             </p>
           </div>
+        </div>
+        <div class="galleryplanet" id="galleryplanet">
+          <h1 class="galleryplaneth1">Galerie</h1>
+          <a
+            href="./GalerieLightBox/Planets/mercury.png"
+            data-lightbox="mercury"
+            data-title=""
+            ><img src="./GalerieLightBox/Planets/mercurymini.png"
+          /></a>
+          <a
+            href="./GalerieLightBox/Planets/mekury1.png"
+            data-lightbox="mercury"
+            data-title=""
+            ><img src="./GalerieLightBox/Planets/mekury1mini.png"
+          /></a>
+          <a
+            href="./GalerieLightBox/Planets/merkury2.png"
+            data-lightbox="mercury"
+            data-title=""
+            ><img src="./GalerieLightBox/Planets/merkury2mini.png"
+          /></a>
+          <a
+            href="./GalerieLightBox/Planets/merkury3.png"
+            data-lightbox="mercury"
+            data-title=""
+            ><img src="./GalerieLightBox/Planets/merkury3mini.png"
+          /></a>
+          <a
+            href="./GalerieLightBox/Planets/merkury4.png"
+            data-lightbox="mercury"
+            data-title=""
+            ><img src="./GalerieLightBox/Planets/merkury4mini.png"
+          /></a>
+          <a
+            href="./GalerieLightBox/Planets/merkury5.png"
+            data-lightbox="mercury"
+            data-title=""
+            ><img src="./GalerieLightBox/Planets/merkury5mini.png"
+          /></a>
         </div>
       </div>
     </div>
