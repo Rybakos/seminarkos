@@ -1032,9 +1032,12 @@ textarea:focus {
   }
   .contactinfo div {
     padding: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
   }
   .contactformular {
     margin-left: 0px;
+    padding: 2px;
   }
   .contactinfo div:nth-child(1) {
     display: block;
@@ -1070,7 +1073,7 @@ textarea:focus {
     font-size: 14px;
   }
   .contactformular input {
-    padding: 3px;
+    padding: 1px;
   }
   .timelinemain {
     display: grid;
