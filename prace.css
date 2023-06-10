@@ -497,6 +497,10 @@ footer {
   height: fit-content;
   background-color: white, 0.2;
 }
+.up {
+  backdrop-filter: blur(3px);
+  background-color: rgb(0, 0, 0, 0.5);
+}
 .menu {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1283,5 +1287,29 @@ textarea:focus {
   }
   .insidefooter {
     display: block;
+  }
+  .planetsimgmerkur:hover ~ .planetsinfomerkur {
+    display: none;
+  }
+  .planetsimgvenuse:hover ~ .planetsinfovenus {
+    display: none;
+  }
+  .planetsimgzeme:hover ~ .planetsinfozeme {
+    display: none;
+  }
+  .planetsimgmars:hover ~ .planetsinfomars {
+    display: none;
+  }
+  .planetsimgjupiter:hover ~ .planetsinfojupiter {
+    display: none;
+  }
+  .planetsimgsaturn:hover ~ .planetsinfosaturn {
+    display: none;
+  }
+  .planetsimguran:hover ~ .planetsinfouranus {
+    display: none;
+  }
+  .planetsimgneptune:hover ~ .planetsinfoneptune {
+    display: none;
   }
 }
