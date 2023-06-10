@@ -215,6 +215,9 @@ footer {
   justify-items: center;
   padding: 10px;
 }
+.insidefooter {
+  display: none;
+}
 #oss img {
   padding: 10px;
 }
@@ -320,7 +323,7 @@ footer {
   display: grid;
 }
 .planetsmaindiv footer {
-  padding-top: 95px;
+  padding-top: 90px;
 }
 
 /* HISTORY SEKCE*/
@@ -467,6 +470,9 @@ footer {
   color: white;
   font-size: 50px;
 }
+.fa-circle-up:hover {
+  color: gray;
+}
 
 /* CONTACTS SEKCE */
 .contactsbody {
@@ -539,10 +545,7 @@ footer {
   font-size: 24px;
   font-weight: 600;
 }
-.up {
-  backdrop-filter: blur(5px);
-  background-color: rgba(0, 0, 0, 0.05);
-}
+
 .menutlacitko {
   display: none;
 }
@@ -881,6 +884,7 @@ textarea:focus {
   align-items: center;
   justify-content: center;
 }
+
 /* Merkury */
 .merkurybody {
   background-image: url(./Galerie/planetsbackground.png);
@@ -1242,5 +1246,42 @@ textarea:focus {
   .uppermenucontect p {
     padding-left: 0px;
     padding-right: 0px;
+  }
+  .planetsjunkup {
+    display: none;
+  }
+  .mainplanets {
+    padding-top: 100px;
+  }
+  .planetssmallleft {
+    display: none;
+  }
+  .planetsbigright {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-content: center;
+  }
+  .mainplanets {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  #oss {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 0px;
+  }
+  .planetsmaindiv {
+    display: grid;
+    grid-template-rows: auto auto auto;
+  }
+  .outsidefooter {
+    display: none;
+  }
+  .insidefooter {
+    display: block;
   }
 }
