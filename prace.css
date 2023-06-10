@@ -339,7 +339,7 @@ footer {
   color: white;
   font-family: "Archivo Black", sans-serif;
   text-align: center;
-  font-size: 72px;
+  font-size: 102px;
 }
 .uppertimeline {
   color: white;
@@ -356,7 +356,7 @@ footer {
 .lowertimeline {
   color: white;
   font-family: "Roboto Condensed", sans-serif;
-  padding-left: 8%;
+  padding-left: 13%;
   padding-right: 20%;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -481,7 +481,7 @@ footer {
   grid-template-rows: auto auto auto;
 }
 .newsmaindiv footer {
-  padding-top: 150px;
+  padding-top: 0px;
 }
 .up {
   display: grid;
