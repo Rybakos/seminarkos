@@ -788,6 +788,7 @@ textarea:focus {
   border-top: white solid;
   margin-right: 10%;
   margin-left: 10%;
+  margin-bottom: 100px;
 }
 .quickfacts h1 {
   grid-column: 1/4;
@@ -810,6 +811,38 @@ textarea:focus {
   font-size: 72px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.Informations {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  margin-right: 10%;
+  margin-left: 10%;
+  gap: 40px;
+}
+.informationsimg img {
+  height: 500px;
+  object-fit: cover;
+}
+.ifnromationscontent {
+  display: grid;
+  grid-template-rows: 10% 90%;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.ifnromationscontent p {
+  display: block;
+  margin-right: 60px;
+  padding: 20px;
+  padding-left: 0px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.ifnromationscontent h1 {
+  border-bottom: white solid 1px;
+  margin-right: 60px;
+  font-size: 18px;
+  font-family: "Archivo Black", sans-serif;
+  padding: 10px;
+  padding-left: 0px;
 }
 /* Merkury */
 .merkurybody {
