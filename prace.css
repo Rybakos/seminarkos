@@ -1135,6 +1135,8 @@ textarea:focus {
   .funkcelevo {
     order: 10;
     grid-column: 1;
+    padding-right: 0%;
+    padding-left: 0%;
   }
   .Message {
     order: 11;
