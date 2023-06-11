@@ -1094,6 +1094,8 @@ textarea:focus {
     padding: 0px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr 3fr 3fr;
+    margin-right: 0px;
+    padding-right: 0px;
   }
   .funkcelevo input {
     margin-left: 15px;
@@ -1149,6 +1151,7 @@ textarea:focus {
   .contactsbutton {
     order: 13;
     grid-column: 1;
+    padding-right: 0px;
   }
   .firsnameinput,
   .lastnameinput,
